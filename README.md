@@ -1,3 +1,6 @@
+#node_modules 파일의 용량이 큰 관계로 업로드하지 않았습니다.
+npm i를 통해 설치한 후 실행해주세요.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
