@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #FFFFE0;
+}
+.transitions-wrapper {
+  position: relative;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100vw;
+}
+.right-enter {
+  transform: translateX(100%);
+}
+
+.right-enter-active {
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.right-exit {
+  transform: translateX(0);
+}
+
+.right-exit-active {
+  transform: translateX(-100%);
+  transition: transform 300ms ease-in-out;
+  opacity: 0;
+}
+
+.cardShadow{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+.card-container {
+transform-origin: 10% 60%;
+padding: 30px;
+margin: 30px;
+border-radius: 20px;
+border:1px solid gold;
+}
+
